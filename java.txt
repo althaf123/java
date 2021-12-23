@@ -1,0 +1,25 @@
+class GFG
+{
+static string censor(string text,string word)
+{
+string[] word_list=text.split("//s+");
+string result="";
+string stars="";
+for(int i=0;i<word.length();i++)
+stars='#';
+int index=0;
+for(string i:word_list)
+{
+if(i.compareTO(word)==0)
+word_list[i1ndex]=stars;
+index++;
+(string i:word list)
+result+=i+'';
+rn result;
+public static void main(string[] args)
+string extract="my name is althaf,iam from kottayam"+".my current location is elamadu"+"but i living
+in kottayam";
+string cen="kottayam"
+system.out.print/n(censor(extract,cen));
+}
+}
